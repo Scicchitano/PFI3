@@ -22,7 +22,7 @@ public class InicioSesionActicity extends AppCompatActivity {
     public void Ingresar(View view){
         //Aca le digo que voy a querer pasar de este contexto (this) a la clase SegundoActivity
         Intent Int_Ingresar = new Intent(this, MainActivity.class);
-        if (et_User.getText().toString() == "Diego" && et_Pass.getText().toString() == "hola"){
+        if (et_User.getText().toString() == "Diego" && et_Pass.getText().toString() == "Nose"){
             startActivity(Int_Ingresar); //Aca se dispara osea se ejecuta la accion de switchear los activitys
         }else {
             Toast.makeText(this, "Usuario o Contraseña errorneo", Toast.LENGTH_SHORT).show();
